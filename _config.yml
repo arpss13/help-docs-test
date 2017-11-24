@@ -1,0 +1,17 @@
+
+title: "Help"
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#
+#header_pages:
+#- contribute.html
+#- getting-started.html
+#- documentation.html
+baseurl: ""
+# Specifies sort order of subnav items within Left Nav
+# 1) alpha - sort all child pages/categories alphabetically, this is the default
+# 2) category - sort categories alphabetically first, then child pages alphabetically
+subnav_sort: alpha
+
+# Build settings
+markdown: kramdown

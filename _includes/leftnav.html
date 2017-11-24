@@ -1,0 +1,93 @@
+{% comment %}---Initiate global menu for mobile---{% endcomment %}
+{% assign default_pages = site.pages | sort:"order" %}
+{% assign page_paths = site.header_pages | default: default_pages %}
+
+{% comment %}---Initiating sub nav page order based on site 'subnav_sort' variable in _config.yml---{% endcomment %}
+{% assign leftNavSort = site.subnav_sort | default:'alpha' %}
+{% if leftNavSort == 'category' %}
+    {% assign pages = site.pages | sort:'order' %}
+{% else %}
+    {% assign pages = site.pages | sort:'url' %}
+{% endif %}
+
+
+<div class="left-nav">
+    <a href="#" id="left-menu-toggle" class="icon-close"></a>
+    <ul class="ctx-global-menu mobile">
+        {% comment %}---Output global nav duplicate for mobile menu---{% endcomment %}
+        {% for p in page_paths %}
+            {% if p.title and p.menu == 'global' %}
+                <li><a {% if page.url contains p.url %}class="active"{% endif %} href="{{ p.url | relative_url }}">{{ p.title | escape }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    <ul class="ctx-sub-menu">
+        {% comment %}---Find root of left nav and output at top---{% endcomment %}
+        {% for p in site.pages %}
+            {% if p.menu == 'global' and p.layout == 'leftnav' and page.url contains p.url %}
+                {% assign rootUrl = p.url %}
+                <li><a href="{{ p.url | relative_url }}">{{ p.title | escape }}</a></li>
+            {% endif %}
+        {% endfor %}
+        {% comment %}---Find left nav pages under root---{% endcomment %}
+        {% for p in pages %}
+            {% if p.menu == 'subnav' and p.url contains rootUrl %}
+                {% if p.category %}
+                    {% comment %}---Check for category in page front matter---{% endcomment %}
+                    {% if lastCategory and lastCategory != p.category %}
+                        {% comment %}---Hit a page with a different category, close accordion---{% endcomment %}
+                        {% assign lastCategory = p.category %}
+                        {% assign newCategory = true %}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    {% endif %}
+                    {% if lastCategory == nil or newCategory %}
+                        {% comment %}---Hit a page with a category, initialize accordion, add first page in category list---{% endcomment %}
+                        {% assign lastCategory = p.category %}
+                        {% assign newCategory = false %}
+                        {% assign pathArray = p.url | split: '/' %}
+                        {% assign currentCategory = pathArray[2] %}
+                        <li class="ctx-category-group {% if page.url contains currentCategory %}active{% endif %}">
+                            <div class="ctx-tabs accordions single drop-padding">
+                                <div class="ctx-tab-content">
+                                    <div class="ctx-tab {% if page.url contains currentCategory %}open{% endif %}" data-tab="{{ p.category }}" data-type="a">
+                                        <div class="tab-label"><span class="tab-icon icon-"></span><span class="tab-text">{{ p.category }}</span></div>
+                                        <div class="tab-content" data-tab-content="{{ p.category }}">
+                                            <ul>
+                                                <li><a href="{{ p.url | relative_url }}">{{ p.title | escape }}</a></li>
+                    {% else %}
+                        {% comment %}---Within same category, add page in category list---{% endcomment %}
+                        <li><a href="{{ p.url | relative_url }}">{{ p.title | escape }}</a></li>
+                    {% endif %}
+                {% else %}
+                    {% comment %}---Non-category page, output left nav item---{% endcomment %}
+                    {% if lastCategory and p.category == nil %}
+                        {% comment %}---Close off previous category accordion---{% endcomment %}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        {% assign lastCategory = nil %}
+                    {% endif %}
+                    <li><a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url | relative_url }}" data-category="{{p.category}}">{{ p.title | escape }}</a></li>
+                {% endif %}
+
+            {% endif %}
+            {% if forloop.last == true and lastCategory %}
+                {% comment %}---Close off last category accordion---{% endcomment %}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>

@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+// Define defaults for each variable
+
+//Break Points
+$bp_small: 500px !default;
+$bp_medium: 960px !default;
+
+//Colors
+$link-color: #1879B9 !default;
+$link-color-visited: #7834ad !default;
+
+/* 	For buttons, but could be used for other
+	Items if the colors are consistent 
+*/
+
+$ctx-blue: #1879B9 !default;
+$ctx-blue-sec: #125C8C !default;
+
+$ctx-orange: #FF5F14 !default;
+$ctx-orange-sec: #E04800 !default;
+
+$ctx-white: #FFFFFF !default;
+
+$ctx-gray: #3F4042 !default;
+$ctx-lite-gray: #D0D0CE !default;
+$ctx-mid-gray: #B1B3B3 !default;
+$ctx-dark-gray: #63666A !default;
+
+/* Additional button colors */
+$ctx-green: #6C9E00 !default;
+$ctx-green-sec: #5E8900 !default;
+
+$ctx-red: #D50032 !default;
+$ctx-red-sec: #BE012D !default;
+
+$ctx-purple: #AA0061 !default;
+$ctx-purple-sec: #910053 !default;
+
+//Fonts
+$font-icon: "Citrix-Icons" !default;
+
+//Component Spacing
+$cmpSpacing: 1.5rem !default;
+$cmpSpacingH: 1.8rem !default;
+
+//Default Gutter
+$gutter: 15px !default;
+
+@mixin ctx-border-radius($radius){
+  -webkit-border-radius: $radius;
+  -moz-border-radius:    $radius;
+  border-radius:         $radius;
+
+  -moz-background-clip:    padding;
+  -webkit-background-clip: padding-box;
+  background-clip:         padding-box;
+}
+
+// Import partials.
+@import
+  "citrix/layout",
+  "citrix/syntax-highlighting"
+;

@@ -1,0 +1,22 @@
+{% if page.layout != 'blank' %}
+    <header class="site-header">
+        {% assign default_pages = site.pages | sort:"order" %}
+        {% assign page_paths = site.header_pages | default: default_pages %}
+        <a class="site-title" href="{{ site.projecturl }}"><span class="site-logo icon-logo-citrix icon"></span>{{ site.title | escape | capitalize }}</a>
+
+        {% if page_paths %}
+            <nav class="site-nav">
+                <ul class="ctx-global-menu">
+                    {% for p in page_paths %}
+                        {% if p.title and p.menu == 'global' %}
+                            <li><a {% if page.url contains p.url %}class="active"{% endif %} href="{{ p.url | remove_first: "/" }}">{{ p.title | escape }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+                <div id="mobile-menu-toggle">
+                    <a href="#" id="menu-toggle"><span class="icon-menu"></span></a>
+                </div>
+            </nav>
+        {% endif %}
+    </header>
+{% endif %}

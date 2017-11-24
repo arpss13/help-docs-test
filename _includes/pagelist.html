@@ -1,0 +1,18 @@
+{% comment %}---Initiate pages to include and sort alphabetically by url---{% endcomment %}
+{% assign pages = site.pages | sort:'url' %}
+{% assign current_page = page.url %}
+
+<div class="page-list">
+    <ul>
+    {% for p in pages %}
+        {% comment %}---Verify pages are a child page before outputting---{% endcomment %}
+        {% if p.url contains current_page and p.menu == 'subnav' %}
+            {% assign link_text = p.title %}
+            {% if p.category %}
+                {% assign link_text = p.category | append: ' - ' | append: p.title %}
+            {% endif %}
+            <li><a href="{{ p.url | relative_url }}">{{ link_text | escape }}</a></li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</div>
