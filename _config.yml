@@ -7,7 +7,7 @@ title: "Help"
 #- contribute.html
 #- getting-started.html
 #- documentation.html
-baseurl: ""
+baseurl: "/en-us"
 # Specifies sort order of subnav items within Left Nav
 # 1) alpha - sort all child pages/categories alphabetically, this is the default
 # 2) category - sort categories alphabetically first, then child pages alphabetically

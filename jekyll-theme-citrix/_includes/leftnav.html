@@ -24,7 +24,7 @@
     <ul class="ctx-sub-menu">
         {% comment %}---Find root of left nav and output at top---{% endcomment %}
         {% for p in site.pages %}
-            {% if p.layout == 'leftnav' and page.url contains p.url %}
+            {% if p.menu == 'global' and p.layout == 'leftnav' and page.url contains p.url %}
                 {% assign rootUrl = p.url %}
                 <li><a href="{{ p.url | relative_url }}">{{ p.title | escape }}</a></li>
             {% endif %}

@@ -2,7 +2,7 @@
 layout: leftnav
 menu: global
 title: What is Citrix Receiver?
-permalink: /receiver-for-ios/
+permalink: receiver-for-ios/
 ---
 
 Citrix Receiver delivers virtual applications and desktops to you on any device, anywhere, wherever you need to work or play.
