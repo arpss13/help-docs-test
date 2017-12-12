@@ -6,15 +6,6 @@
 
         {% if page_paths %}
             <nav class="site-nav">
-                <ul class="ctx-global-menu">
-                    {% for p in page_paths %}
-                        {% if p.title and p.menu == 'global' %}
-                            <!--
-                            <li><a {% if page.url contains p.url %}class="active"{% endif %} href="{{ p.url | remove_first: "/" }}">{{ p.title | escape }}</a></li>
-                            -->
-                        {% endif %}
-                    {% endfor %}
-                </ul>
                 <div id="mobile-menu-toggle">
                     <a href="#" id="menu-toggle"><span class="icon-menu"></span></a>
                 </div>
