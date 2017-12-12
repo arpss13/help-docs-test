@@ -252,9 +252,7 @@ body {
     .left-wrapper {
         height:0;
         .left-nav {
-            -webkit-transform:translateX(105%);
-            -ms-transform:translateX(105%);
-            transform:translateX(105%);
+            display:none;
         }
     }
         
