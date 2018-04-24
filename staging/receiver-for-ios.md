@@ -4,7 +4,6 @@ menu: subnav
 title: What is Citrix Receiver?
 ---
 
-
 Citrix Receiver for iOS is client software available for download from the App Store on iOS devices. It enables you to access and run virtual desktops and hosted applications delivered by XenDesktop and XenApp.
 
 iOS is the operating system for Apple mobile devices such as iPads and iPhones. Citrix Receiver for iOS runs on devices using the iOS operating system, such as iPhone X, iPads, and iPad Pro.

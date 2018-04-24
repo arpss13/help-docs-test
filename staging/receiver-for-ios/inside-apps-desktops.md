@@ -4,7 +4,7 @@ title: Inside apps and desktops
 menu: subnav
 ---
 
-After an app or desktop launches, you can navigate it using touch or with the Citrix X1 Mouse. For more information on the Citrix X1 Mouse, see the **Citrix X1 Mouse** section of the help.
+After an app or desktop launches, you can navigate it using touch or with the Citrix X1 Mouse.
 
 The toolbar allows access to many additional functions within Citrix Receiver. To display the toolbar on an iPad, tap the arrow at the top of the screen inside an app or desktop. On an iPhone, tap the screen and a small grid appears near the bottom of the screen. Tap the grid to display the toolbar.
 
