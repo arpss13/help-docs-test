@@ -4,12 +4,14 @@ title: Display your devices in the desktop viewer
 menu: subnav
 ---
 
-Citrix Receiver for Windows detects the devices that you have connected to your computer and allows you to choose the devices you want to use with your hosted desktop and applications.
+# Display your devices in the desktop viewer
 
-* You can use the settings in **Preferences** > **Connections** to customize whether or not you want devices, such as microphone and webcams, to connect to your virtual session.
-* Devices connected to the local machine display in the Device list in **Preferences** > **Devices**.
-* If you have connected a device and you cannot see it in the Device list, click **Refresh**.
-* Once connected, devices display as **Optimized**, **Policy Restricted** or **Generic**.
+Citrix Workspace for Windows detects the devices that you have connected to your computer and allows you to choose the devices you want to use with your hosted desktop and applications.
+
+*  You can use the settings in **Preferences** > **Connections** to customize whether or not you want devices, such as microphone and webcams, to connect to your virtual session.
+*  Devices connected to the local machine display in the Device list in **Preferences** > **Devices**.
+*  If you have connected a device and you cannot see it in the Device list, click **Refresh**.
+*  Once connected, devices display as **Optimized**, **Policy Restricted** or **Generic**.
 
 | Device | Description |
 |---|---|

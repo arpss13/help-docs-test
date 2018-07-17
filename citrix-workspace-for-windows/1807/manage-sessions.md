@@ -4,9 +4,11 @@ title: Manage sessions
 menu: subnav
 ---
 
-The Citrix Connection Center displays all active connections established from Receiver.
+# Manage sessions
 
-To open Connection Center, right-click the Receiver icon and then click **Connection Center**.
+The Citrix Connection Center displays all active connections established from Workspace.
+
+To open Connection Center, right-click the Workspace icon and then click **Connection Center**.
 
 ## To exit a frozen virtual app
 
@@ -20,8 +22,8 @@ Select the server in Connection Center and then click **Log Off**.
 
 You can switch between "seamless" and “full screen” mode.
 
-* **Seamless mode:** Desktops and apps are not contained within a session window. Each desktop and app appears in its own resizable window, as if it is physically installed on your user device. You can switch between apps and the local desktop.
-* **Full screen mode:** Apps are placed in a desktop window.
+*  **Seamless mode:** Desktops and apps are not contained within a session window. Each desktop and app appears in its own resizable window, as if it is physically installed on your user device. You can switch between apps and the local desktop.
+*  **Full screen mode:** Apps are placed in a desktop window.
 
 To switch to full screen mode: Select the server in Connection Center, click **Full Screen**, and click **OK**.
 
