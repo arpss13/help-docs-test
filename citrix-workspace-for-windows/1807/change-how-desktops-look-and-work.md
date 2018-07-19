@@ -4,8 +4,6 @@ title: Change how desktops look and work
 menu: subnav
 ---
 
-# Change how desktops look and work
-
 Your virtual desktop is displayed in a window. Use the buttons on the window's toolbar to move and resize the desktop and to control how files and devices are accessed. A small toolbar grip button is displayed at the top of the window or (if maximized) the screen. Click the grip to display the toolbar.
 
 ## To move the toolbar to another position on the screen

@@ -4,8 +4,6 @@ title: Find desktops and apps
 menu: subnav
 ---
 
-# Find desktops and apps
-
 Your virtual desktops and apps are available from the Citrix Workspace for Windows home page on all of your devices.
 
 To get started, right-click the Citrix Workspace for Windows icon in the notification area and then click **Open**. Desktops and apps can also be in one or more of these locations:
