@@ -4,8 +4,6 @@ title: Add accounts or switch servers
 menu: subnav
 ---
 
-# Add accounts or switch servers
-
 If your help desk asks you to add an account or use a different NetScaler Gateway, follow these steps.
 
 ## To add a Citrix Workspace for Windows account
