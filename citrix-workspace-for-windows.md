@@ -1,5 +1,6 @@
 ---
 layout: leftnav
+menu: global
 title: Citrix Workspace for Windows
 permalink: citrix-workspace-for-windows/
 ---
