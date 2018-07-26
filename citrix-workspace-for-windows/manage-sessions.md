@@ -4,9 +4,9 @@ title: Manage sessions
 menu: subnav
 ---
 
-The Citrix Connection Center displays all active connections established from Workspace.
+The Citrix Connection Center displays all active connections established from Citrix Workspace app.
 
-To open Connection Center, right-click the Workspace icon and then click **Connection Center**.
+To open Connection Center, right-click the Citrix Workspace app icon and then click **Connection Center**.
 
 ## To exit a frozen virtual app
 
