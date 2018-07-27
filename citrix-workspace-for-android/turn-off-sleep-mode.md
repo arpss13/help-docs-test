@@ -8,5 +8,5 @@ To keep your device from going into sleep mode and disconnecting your Receiver s
 
 **Note**: Keeping the display on decreases your battery life.
 
-1. Tap the Android icon, and then tap **Settings**.
-2. From **Display Options**, tap **Keep display on**.
+1.  Tap the Android ico > select **Settings**.
+2.  From **Display Options**, tap **Keep display on**.

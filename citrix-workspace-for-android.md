@@ -5,12 +5,11 @@ title: What is Citrix Workspace for Android?
 permalink: citrix-workspace-for-android/
 ---
 
+What is Citrix Receiver?
 Citrix Receiver delivers virtual applications and desktops to you on any device, anywhere, wherever you need to work or play.
+After you create an account, use the Receiver to manage your apps:
 
-After you create an account, use the Receiver icons to manage your apps:
+• The home screen displays the apps and desktops that you have added.
+• Tap **Apps** , **Desktops** and **Files** to view the apps , desktops that you have published.
 
-* The home screen displays the apps that you have added and used.
-* The Android icon provides advanced functions.
-* Tap **Apps** to view the apps you can access on your device.
-
-On the Apps list, tap **Search Apps** to enter keywords to find apps.
+Tap the Search to enter keywords to find apps or desktops.
