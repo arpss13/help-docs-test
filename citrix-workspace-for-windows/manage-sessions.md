@@ -6,15 +6,15 @@ menu: subnav
 
 The Citrix Connection Center displays all active connections established from Workspace.
 
-To open Connection Center, right-click the Workspace icon and then click **Connection Center**.
+To open Connection Center, right-click the Citrix Workspace app icon in the notification area and click **Connection Center**.
 
 ## To exit a frozen virtual app
 
-Select the app in Connection Center and then click **Terminate**.
+Select the app in **Connection Center** and click **Terminate**.
 
 ## To close all active virtual apps at once
 
-Select the server in Connection Center and then click **Log Off**.
+Select the server in **Connection Center** and click **Log Off**.
 
 ## To change how you see your desktops and apps
 

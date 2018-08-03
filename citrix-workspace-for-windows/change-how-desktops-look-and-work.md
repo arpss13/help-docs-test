@@ -19,7 +19,7 @@ A virtual desktop may need to access files on your local computer. You can contr
 1.  On the toolbar, click **Preferences** > **File Access** and select one of the following options:
 
     | Option | Description |
-    |---|---|
+    |:---:|:---:|
     | **Read and write** | Allow the virtual desktop to read and write to local files.|
     | **Read only** | Allow the virtual desktop to read but not write to local files. |
     | **No access** | Do not allow the virtual desktop to access local files. |
@@ -34,7 +34,7 @@ Follow this procedure if you want to change the way your virtual desktop accesse
 1.  On the toolbar, click **Preferences** > **Connections**, and select one of the following options:
 
     | Option | Description |
-    |---|---|
+     |:---:|:---:|
     | **Connect automatically**| Allow the microphone or webcam to be used on the virtual desktop. |
     | **Do not connect** | Do not allow the microphone or webcam to be used on the virtual desktop. |
     | **Ask me** | Prompt me when the virtual desktop needs to access the microphone or webcam. |
