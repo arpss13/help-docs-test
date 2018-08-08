@@ -1,7 +1,7 @@
 ---
 layout: leftnav
 menu: subnav
-title: Access your apps and desktops
+title: Access your apps, desktops and files.
 ---
 
 Manage your Citrix Workspace app home screen:
@@ -18,5 +18,5 @@ On the home screen, tap and hold any app until the menu appears. Tap the **Remov
 
 ## Customize the Keyboard
 
-1.  Tap the Android icon, and tap **Settings**. 
+1.  Tap the Android icon, and tap **Settings**.
 2.  From **Keyboard**, tap **Show extended keys**, and then tap **Extended key settings** to customize your keyboard.

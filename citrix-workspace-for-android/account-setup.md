@@ -4,21 +4,19 @@ menu: subnav
 title: Set up your account
 ---
 
-You can set up one or more accounts to access your apps.
-
 # Setup your account
 
 You can set up one or more accounts to access your resources.
 
-# Create an Account
+## Create an Account
 
 When you start Citrix Workspace app for the first time, the Welcome screen offers you a choice of accounts to open:
 
 -  To try a demonstration account from the Citrix Cloud, enter your registration information and use the applications available.
 -  To access your organization's applications, enter the information about your account that your organization provides.
 
-1.  In the Receiver for Android home page, click the down arrow and click Accounts.
-1.  In the Add Account window, click Add and then complete the information provided by your help desk.
+1.  In the Citrix Workspace app home page, click the down arrow and click **Accounts**.
+1.  In the Add Account window, click Add and complete the information provided by your help desk.
 
 ## Additional information
 
