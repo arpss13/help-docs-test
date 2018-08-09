@@ -22,6 +22,6 @@ To close a running app or desktop on an iPad, tap its icon on the home screen an
 
 >**Note:**
 >
-> This closes *all* running apps and desktops.*
+> This closes *all* running apps and desktops.
 
 To log off, tap the **Accounts** icon and then tap **Log Off**. If any apps or desktops are still running, tap **Log Off** again when prompted to force the apps to close.
