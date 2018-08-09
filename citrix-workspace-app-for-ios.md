@@ -1,7 +1,8 @@
 ---
 layout: leftnav
-menu: subnav
-title: What is Citrix Workspace app
+menu: global
+title: What is Citrix Workspace app?
+permalink: citrix-workspace-app-for-ios/
 ---
 
 Citrix Workspace app for iOS is client software available for download from the App Store on iOS devices. It enables you to access and run virtual desktops and hosted applications delivered by XenDesktop and XenApp.
