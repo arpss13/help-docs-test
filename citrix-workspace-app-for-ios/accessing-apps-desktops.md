@@ -1,6 +1,6 @@
 ---
 layout: leftnav
-title: Accessing apps and desktops
+title: Apps and desktops
 menu: subnav
 ---
 
