@@ -1,4 +1,8 @@
-# Configuring shortcuts and reconnect options using graphical user interface
+---
+layout: leftnav
+title: Configuring shortcuts and reconnect options using graphical user interface
+menu: subnav
+---
 
 > Note:
 >

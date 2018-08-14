@@ -1,10 +1,14 @@
-# Using Configuration Checker to validate Single Sign-on configuration
+---
+layout: leftnav
+title:  Using Configuration Checker to validate Single Sign-on configuration
+menu: subnav
+---
+
+Configuration Checker helps users to run a test to ensure that Single Sign-on is configured properly. The test runs on different checkpoints of the Single Sign-on configuration and displays the configuration results.
 
 > Note:
 >
 > You can hide all or part of the Advanced Preferences sheet available from the Citrix Workspace app icon in the notification area. For more information, see [Hiding the Advanced Preferences sheet](https://docs.citrix.com/en-us/citrix-workspace-app-for-windows/configure/config-xdesktop/hiding-the-advanced-preferences-sheet.html)
-
-Configuration Checker helps users to run a test to ensure that Single Sign-on is configured properly. The test runs on different checkpoints of the Single Sign-on configuration and displays the configuration results.
 
 1.  Logon to Citrix Workspace app for Windows.
 2.  Right-click Citrix Workspace app in the notification area and select **Advanced Preferences**. The Advanced Preferences window appears.

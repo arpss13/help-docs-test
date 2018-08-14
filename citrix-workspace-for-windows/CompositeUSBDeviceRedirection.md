@@ -1,4 +1,8 @@
-# Configuring composite USB device redirection
+---
+layout: leftnav
+title: Configuring composite USB device redirection
+menu: subnav
+---
 
 USB support enables interaction with a wide range of USB devices when connected to a virtual desktop. You can plug USB devices into your computer and the devices are remoted to your virtual desktop. USB devices available for remoting include flash drives, smartphones, PDAs, printers, scanners, MP3 players, security devices, and tablets. Use the Desktop Viewer **Preferences** in the toolbar to control whether USB devices are available on the virtual desktop.
 

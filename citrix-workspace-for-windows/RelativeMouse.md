@@ -1,4 +1,8 @@
-# Relative mouse
+---
+layout: leftnav
+title: Relative mouse
+menu: subnav
+---
 
 Relative mouse support provides an option to interpret the mouse position in a relative rather than an absolute manner. Apps that demaind relative mouse input rather than absolute require this capability.
 

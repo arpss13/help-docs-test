@@ -1,6 +1,10 @@
-# Generic client Input Method Editors (IME)
+---
+layout: leftnav
+title: Generic client Input Method Editors (IME)
+menu: subnav
+---
 
-## Configuring generic client IME using the graphical user interface
+# Configuring generic client IME using the graphical user interface
 
 Generic client IME requires VDA Version 7.13 or later.
 
