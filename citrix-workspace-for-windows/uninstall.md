@@ -4,8 +4,6 @@ title: Uninstalling Citrix Workspace app for Windows
 menu: subnav
 ---
 
-# Uninstalling Citrix Workspace app for Windows
-
 You can uninstall Citrix Workspace app for Windows using the Windows Programs and Features utility (Add/Remove Programs).
 
 > Note:
