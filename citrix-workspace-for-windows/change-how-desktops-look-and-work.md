@@ -6,7 +6,7 @@ menu: subnav
 
 Your virtual desktop is displayed in a window. Use the buttons on the window's toolbar to move and resize the desktop and to control how files and devices are accessed. A small toolbar grip button is displayed at the top of the window or (if maximized) the screen. Click the grip to display the toolbar.
 
-## To move the toolbar to another position on the screen
+# To move the toolbar to another position on the screen
 
 You can move the toolbar to a convenient position that does not obscure other window's content or controls.
 
