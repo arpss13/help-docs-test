@@ -16,7 +16,7 @@ While using your iOS device with an external display, you can use your iOS devic
 
 >**Note:**
 >
-> This option is available only while using **External Display** mode.*
+> This option is available only while using **External Display** mode.
 
 ## Keyboard Options
 
@@ -34,19 +34,23 @@ Tap **Audio** to turn audio from your apps and desktops on or off. This option i
 
 >**Note:**
 >
-> This setting lets you listen only. Citrix Workspace app for iOS does not offer bi-directional audio.*
+> This setting lets you listen only. Citrix Workspace app for iOS does not offer bi-directional audio.
 
 ## Advanced Settings
+
+Tap **Strict Certificate Validation** to use the stricter validation policy for server certificates. This option might affect session launches.
+
+**TLS Versions** allows you to change your TLS settings for troubleshooting purpose. By default, the TLS versions is set to **TLS 1.0, 1.1, 1.2**.
 
 Tap **Use iPad Storage** or **Use iPhone Storage** to use the internal storage of your device rather than saving documents to a cloud service or to your organization’s network server.
 
 Tap **Ask Before Exiting** to ensure that Citrix Workspace app for iOS confirms with you before disconnecting any session.
 
-On an iPad, tap **Session Sharing** to move your session from one device to another using Citrix Workspace app for iOS and to continue to work in your open apps or desktops. This option is on by default if your organization supports it.
+On an iPad, tap **Session Sharing** to move your session from one device to another using Citrix Workspace app for iOS and to continue to work in your open apps or desktops. This option is on by default if your organization supports it. Tap **Auto-add favorites** to automatically add launched apps to your favorites. This option is on by default.
 
 >**Note:**
 >
-> If session sharing is disabled or not an option (such as on the iPhone), when you tap **Home**, you disconnect from the session by default. Your apps continue to run on the server. You can roam to another device, log on to the same account, and resume using your apps and desktops.*
+> If session sharing is disabled or not an option (such as on the iPhone), when you tap **Home**, you disconnect from the session by default. Your apps continue to run on the server. You can roam to another device, log on to the same account, and resume using your apps and desktops.
 
 Tap **Use Native Combo Box** to use the iOS-native selection feature. This option is on by default.
 
@@ -60,28 +64,30 @@ Tap **Enable HTTP Proxy** to use an HTTP proxy for your session. This option has
 
 Tap **Enable Smart card** to use a smart card within a session. This option is only to let you use a smart card within a session, not to authenticate to the session.
 
-Tap **Session Reliability** to ensure that your session stays connected, even if your network connection becomes poor or is interrupted.
+Tap **Session Reliability** to ensure that your session stays connected, even if your network connection becomes poor or is interrupted. This option is on by default.
 
-Tap **Reset Workspace app** when you want to reset all settings and options, including removing all stores, certificates, logs, and accounts.
+Tap **Reset Workspace** when you want to reset all settings and options, including removing all stores, certificates, logs, and accounts.
 
 >**Note:**
 >
 > This operation is irreversible and cannot be undone.
 
+Tap **Adaptive Transport Settings** to switch EDT on or off. EDT delivers a superior user experience on long-haul WAN and internet connections. Tap **Allow EDT** to use adaptive transport. This option is on by default. Tap **Read EDT stack parameters** to troubleshoot EDT problems.
+
+Tap **Auto Tablet Mode** to ensure that you launch in Tablet Mode on a Windows 10 virtual desktop when there is no keyboard or mouse attached. When a keyboard or a mouse or both are connected to the session, the virtual desktop starts in Desktop Mode. Detaching or attaching hardware toggles between Tablet Mode and Desktop Mode.
+
 **Wireless Trackpad** lets you use a secondary iOS device as a remote trackpad to control apps or desktops on your primary iOS device. Both devices must have Citrix Workspace app for iOS installed. Pairing controls only Citrix Workspace app for iOS applications on your primary iOS device.
 
 To enable **Wireless Trackpad**:
 
-1. Ensure that Bluetooth or WiFi is enabled on both iOS devices.
-2. On the primary iOS device, launch Citrix Workspace app for iOS and then launch the application you want to use.
-3. From the toolbar, tap **Pair**.
-4. On the secondary iOS device, launch Citrix Workspace app for iOS, then tap **Settings**
-5. Tap **Advanced**.
-6. Tap **Wireless Trackpad** and confirm the connection.
+1.  Ensure that Bluetooth or WiFi is enabled on both iOS devices.
+2.  On the primary iOS device, launch Citrix Workspace app for iOS and then launch the application you want to use.
+3.  From the toolbar, tap **Pair**.
+4.  On the secondary iOS device, launch Citrix Workspace app for iOS, then tap **Settings**
+5.  Tap **Advanced**.
+6.  Tap **Wireless Trackpad** and confirm the connection.
 
 This pairing remains in place until you close the application on the primary iOS device.
-
-Tap **Adaptive Transport Settings** to switch EDT on or off. EDT delivers a superior user experience on long-haul WAN and internet connections. Tap **Allow EDT** to use adaptive transport. This option is on by default.
 
 The Caffeine function allows your iOS device to stay awake, even while not in active use. Tap **Caffeine**, then tap **Stay Awake** to keep your device awake. By default, this option is turned off to conserve battery life.
 
@@ -113,4 +119,4 @@ Tap **Log Options** to collect error log information and send it to Citrix Suppo
 
 Tap **About** to see information about Citrix Workspace app for iOS, including which version you are using and information about third-party notices and user agreements.
 
-Tap **Review Citrix Workspace app** to review Citrix Workspace app for iOS on the App Store.
+Tap **Review Citrix Workspace** to review Citrix Workspace app for iOS on the App Store.
