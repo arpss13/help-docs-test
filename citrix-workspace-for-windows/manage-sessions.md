@@ -8,7 +8,7 @@ The Citrix Connection Center displays all active connections established from Ci
 
 To open Connection Center, right-click the Citrix Workspace app icon in the notification area and click **Connection Center**.
 
-## To exit a frozen virtual app
+# To exit a frozen virtual app
 
 Select the app in **Connection Center** and click **Terminate**.
 
