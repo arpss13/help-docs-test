@@ -3,7 +3,6 @@ layout: leftnav
 menu: subnav
 title: Settings
 ---
-# Settings
 
 Under the **Settings** tab, the following options are listed:
 
