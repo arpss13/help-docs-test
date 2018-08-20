@@ -1,6 +1,6 @@
 ---
 layout: leftnav
-title:  Using Configuration Checker to validate Single Sign-on configuration
+title:  Validating Single Sign-on configuration
 menu: subnav
 ---
 

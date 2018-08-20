@@ -12,7 +12,7 @@ Relative mouse support provides an option to interpret the mouse position in a r
 
 ## To enable Relative Mouse support
 
-1.  Logon to Citrix Workspace app for Windows.
+1.  Log on to Citrix Workspace app for Windows.
 2.  Start a published desktop session.
 3.  From the Desktop Viewer toolbar, select **Preferences**. The Citrix Worskspace app - Preferences window appears.
 4.  Select **Connections**.
