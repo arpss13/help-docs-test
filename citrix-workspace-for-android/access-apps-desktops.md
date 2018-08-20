@@ -6,7 +6,7 @@ title: Access your apps and desktops
 
 Manage your Citrix Workspace app home screen:
 
-# Add Apps
+## Add Apps
 
 On your device, tap the **Apps** to view the apps you can access. Tap the app name to launch it and add it to your home screen.
 
