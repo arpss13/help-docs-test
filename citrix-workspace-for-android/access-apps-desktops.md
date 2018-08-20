@@ -1,7 +1,7 @@
 ---
 layout: leftnav
 menu: subnav
-title: Access your apps, desktops and files.
+title: Access your apps and desktops
 ---
 
 Manage your Citrix Workspace app home screen:
@@ -14,7 +14,7 @@ If an app does not start right away, click **Install** to download the app to yo
 
 ## Remove Apps
 
-On the home screen, tap and hold any app until the menu appears. Tap the **Remove from Receiver Home**. Tap the screen when you are finished.
+On the home screen, tap and hold any app until the menu appears. Tap the **Remove from Workspace Home**. Tap the screen when you are finished.
 
 ## Customize the Keyboard
 
