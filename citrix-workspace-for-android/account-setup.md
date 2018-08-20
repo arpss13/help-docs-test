@@ -4,8 +4,6 @@ menu: subnav
 title: Set up your account
 ---
 
-# Setup your account
-
 You can set up one or more accounts to access your resources.
 
 ## Create an Account
