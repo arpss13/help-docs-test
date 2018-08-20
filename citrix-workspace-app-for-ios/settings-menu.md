@@ -40,7 +40,7 @@ Tap **Audio** to turn audio from your apps and desktops on or off. This option i
 
 Tap **Strict Certificate Validation** to use the stricter validation policy for server certificates. This option might affect session launches.
 
-**TLS Versions** allows you to change your TLS settings for troubleshooting purpose. By default, the TLS versions is set to **TLS 1.0, 1.1, 1.2**.
+**TLS Versions** allows you to change your TLS settings for troubleshooting purposes. By default, the TLS versions is set to **TLS 1.0, 1.1, 1.2**.
 
 Tap **Use iPad Storage** or **Use iPhone Storage** to use the internal storage of your device rather than saving documents to a cloud service or to your organization’s network server.
 
