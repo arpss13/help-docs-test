@@ -1,6 +1,6 @@
 ---
 layout: leftnav
-title: Settings Menu
+title: Settings
 menu: subnav
 ---
 
